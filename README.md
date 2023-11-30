@@ -1,0 +1,2 @@
+Trabajo prático realizado para el curso de Desarrollador Web con React JS.
+El trabajo consiste en una página web destinada a un ecommerce. Se construyo una web básica y simple atendiendo a la consigna planteada.

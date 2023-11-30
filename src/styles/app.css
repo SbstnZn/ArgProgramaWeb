@@ -1,0 +1,55 @@
+header {
+  background-color: #4caf50;  
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo {
+  font-size: 2rem;
+}
+
+.header-logo a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.header-logo a:hover {
+  color: #3498db; 
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    padding: 10px;
+  }
+
+  .product-info {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .product-info img {
+    max-width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .product-details {
+    margin-left: 0;
+  }
+
+  .button {
+    margin-top: 15px;
+  }
+}
